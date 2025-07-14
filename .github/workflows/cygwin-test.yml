@@ -28,7 +28,7 @@ jobs:
         fetch-depth: 0
 
     - name: Install Cygwin
-      uses: cygwin/cygwin-install-action@v5
+      uses: cygwin/cygwin-install-action@v6
       with:
         packages: python39 python39-pip python39-virtualenv git wget
         add-to-path: false  # No need to change $PATH outside the Cygwin environment.
